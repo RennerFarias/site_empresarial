@@ -37,7 +37,6 @@ nav a:hover {
   color: #bac2de;
 }
 
-/* ====== Linhas divisórias ====== */
 hr {
   border: none;
   border-top: 2px solid #6c7086;
@@ -131,4 +130,86 @@ hr {
 
 .box-service:hover {
   transform: scale(1.1);
+}
+
+.box-service-equipe {
+  width: 200px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 7px #11111b solid;
+  border-radius: 10px;
+  background-blend-mode: overlay;
+  transition: 0.1s;
+    margin: 10px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member h3 {
+  margin: 15px 0 5px 0;
+  font-size: 18px;
+}
+
+.team-member p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.team-member a {
+  text-decoration: none;
+  display: block;
+}
+
+.box-service-equipe {
+  width: 200px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border: 7px #11111b solid;
+  border-radius: 10px;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.1s;
+  margin: 10px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member h3 {
+  margin: 15px 0 5px 0;
+  font-size: 18px;
+}
+
+.team-member p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.team-member a {
+  text-decoration: none;
+  display: block;
+}
+
+.box-renner {
+  background-image: url(../img/Equipe/renner.jpg);
+}
+
+.box-jose {
+  background-image: url(../img/Equipe/jose.png);
+}
+
+.box-igor {
+  background-image: url(../img/Equipe/igor.jpg);
 }
