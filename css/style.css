@@ -75,6 +75,16 @@ hr {
   text-align: center;
 }
 
+.logo {
+  height: 30px;
+  vertical-align: middle;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
 /* ========================================
    PERFIL (MEMBROS)
    ======================================== */
