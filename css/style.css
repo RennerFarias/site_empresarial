@@ -153,7 +153,7 @@ hr {
 }
 
 /* ========================================
-   EQUIPE
+   EQUIPE 
    ======================================== */
 
 .box-service-equipe {
@@ -239,7 +239,7 @@ hr {
 }
 
 /* ========================================
-   CONTATO
+   CONTATO (NUNCA IMAGINEI DAR TANTA DOR DE CABEÇA)
    ======================================== */
 
 .contact-container {
@@ -349,4 +349,31 @@ hr {
   .contact-container {
     grid-template-columns: 1fr;
   }
+}
+
+/* ========================================
+   BARRA SUPERIOR SEMPRE VISIVEL aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+   ======================================== */
+
+   nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 1em 0;
+  border-bottom: 2px solid #6c7086;
+  margin-bottom: 25px;
+  
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: #1e1e2e;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #1e1e2e;
+  padding-top: 80px;
 }
