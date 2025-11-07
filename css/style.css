@@ -59,7 +59,7 @@ hr {
 .center-text {
   text-align: center;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 .center-text h1, 
@@ -76,7 +76,7 @@ hr {
 }
 
 .logo {
-  height: 30px;
+  height: 43px;
   vertical-align: middle;
   transition: transform 0.3s;
 }
